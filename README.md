@@ -34,6 +34,6 @@ Train chatbot on your Telegram chat.
     
     ("labels" is what the model was training to answer, "model" is actual model output)
     
-10.  To chat with the model run this cell:
+10. To chat with the model run this cell:
     
     ![](images/6.png)
