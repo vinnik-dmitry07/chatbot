@@ -24,14 +24,16 @@ Train chatbot on your Telegram chat.
 
 7. Open [run_chatbot.ipynb](https://colab.research.google.com/github/vinnik-dmitry07/Chatbot/blob/main/run_chatbot.ipynb)
 
-8.  Run this cell to show what model answers on the test data:
+8. Run setup cells (installing parlai, mounting the drive)
+
+9.  Run this cell to show what model answers on the test data:
     
     ![](images/4.png)
     
     ![](images/5.png)
     
-    ("labels" is what model was training to answer, "model" is actual model output)
+    ("labels" is what the model was training to answer, "model" is actual model output)
     
-9.  To chat with the model run this cell:
+10.  To chat with the model run this cell:
     
     ![](images/6.png)
