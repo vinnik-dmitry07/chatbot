@@ -32,7 +32,7 @@ Train chatbot on your Telegram chat.
 
     ![](images/5.png)
 
-    ("labels" is what the model was training to answer, "model" is actual model output)
+    ("labels" is what the model was training to answer, "model" is actual model output, more examples are present in a *run_chatbot.ipynb* cell output)
 
 10. To chat with the model run this cell:
 
