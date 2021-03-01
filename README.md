@@ -8,7 +8,7 @@ Train chatbot on your Telegram chat.
 
     ![](images/1.png)
 
-2.  Open your Google Drive, create *chatbot_data* folder, and put result.json there:
+2.  Create new Google Drive (a model checkpoint that replacing old one goes to trash, and it is big enough to fill up your disk quick), create *chatbot_data* folder, and put result.json there:
 
     ![](images/2.png)
 
@@ -19,7 +19,7 @@ Train chatbot on your Telegram chat.
 5.  Mount your drive (press enter after pasting a code):
 
     ![](images/3.png) 
-    
+
 6. After training have started do not close the browser tab until you go out of the quota (about 10 hours)
 
 7. Open [run_chatbot.ipynb](https://colab.research.google.com/github/vinnik-dmitry07/Chatbot/blob/main/run_chatbot.ipynb)
@@ -27,13 +27,13 @@ Train chatbot on your Telegram chat.
 8. Run setup cells (installing parlai, mounting the drive)
 
 9.  Run this cell to show what model answers on the test data:
-    
+
     ![](images/4.png)
-    
+
     ![](images/5.png)
-    
+
     ("labels" is what the model was training to answer, "model" is actual model output)
-    
+
 10. To chat with the model run this cell:
-    
+
     ![](images/6.png)
